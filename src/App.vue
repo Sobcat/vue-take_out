@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/"> {{title}} </router-link> |
+      <router-link to="/home"> {{title}} </router-link> |
       <router-link to="/about">About</router-link>
       <span v-html="html_m"></span>
       <a v-bind:href="url">点我链接</a>
@@ -56,6 +56,9 @@
     },
     watch: {
 
+    },
+    mounted() {
+      console.log(this);
     }
   }
 </script>
