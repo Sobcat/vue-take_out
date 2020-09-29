@@ -1,13 +1,22 @@
 <template>
-  <div>
-    msite
+  <div class="msite">
+    <HeaderTop title="msite">
+      <template v-slot:left>
+        <span>
+
+        </span>
+      </template>
+    </HeaderTop>
   </div>
 </template>
 
 <script>
+import HeaderTop from "../components/HeaderTop"
 export default {
-  name: 'FooterGuide',
-
+  
+  components: {
+    HeaderTop
+  }
 }
 </script>
 
