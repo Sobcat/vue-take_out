@@ -1,12 +1,17 @@
 <template>
-  <div>
-    
+  <div class="search">
+    <HeaderTop title="搜索"/>
+
   </div>
 </template>
 
 <script>
+import HeaderTop from "../components/HeaderTop"
 export default {
-  name: 'FooterGuide',
+  name: 'Search',
+  components: {
+    HeaderTop
+  }
 
 }
 </script>

@@ -1,12 +1,16 @@
 <template>
-  <div>
-    
+  <div class="order">
+    <HeaderTop title="订单列表"/>
   </div>
 </template>
 
 <script>
+import HeaderTop from "../components/HeaderTop"
 export default {
-  name: 'FooterGuide',
+  name: '',
+  components: {
+    HeaderTop
+  }
 
 }
 </script>

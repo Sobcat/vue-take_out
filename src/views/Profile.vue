@@ -1,12 +1,16 @@
 <template>
-  <div>
-    
+  <div class="profile">
+    <HeaderTop title="我的"/>
   </div>
 </template>
 
 <script>
+import HeaderTop from "../components/HeaderTop"
 export default {
-  name: 'FooterGuide',
+  name: 'Profile',
+  components: {
+    HeaderTop
+  }
 
 }
 </script>
