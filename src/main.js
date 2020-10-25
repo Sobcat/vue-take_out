@@ -10,9 +10,9 @@ Vue.config.productionTip = false
 
 new Vue({
   //全局事件总线，不用另外创建vm实例，但要尽早挂载上去。
-  beforeCreate(){
-    Vue.prototype.$globalEventBus = this;
-  },
+  // beforeCreate(){
+  //   Vue.prototype.$globalEventBus = this;
+  // },
 
   router,
   store,
